@@ -1,0 +1,62 @@
+body {
+    background-color: var(--mainColor1);
+    width: 100%;
+    height: 100%;
+
+    font-size: 36px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    --mainColor1: #1D1B1B;
+    --mainColor2: #34353A;
+    --mainColor3: #BE3618;
+    --mainColor4: #FFB324;
+    --mainColor5: #B62652;
+
+}
+
+.n-container {
+
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 960px) {
+    html {
+
+        font-size: 14px !important;
+    }
+
+}
+
+@media (max-width: 660px) {
+    html {
+
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 460px) {
+    html {
+
+        font-size: 10px !important;
+    }
+
+}
